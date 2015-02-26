@@ -1,16 +1,16 @@
-package com.github.SPECIALPANCAKE6.CompuChests.init;
+package com.github.specialpancake6.compuchests.init;
 
-import com.github.SPECIALPANCAKE6.CompuChests.blocks.BlockChestMonitor;
-import com.github.SPECIALPANCAKE6.CompuChests.help.RegisterHelper;
+import com.github.specialpancake6.compuchests.blocks.BlockCopperOre;
+import com.github.specialpancake6.compuchests.help.RegisterHelper;
 
 import net.minecraft.block.Block;
 
 public class ModBlocks
 {
-	public static Block chestMonitor = new BlockChestMonitor();
+	public static Block copperOre = new BlockCopperOre();
 	
 	public static void init()
     {
-		RegisterHelper.registerBlock(chestMonitor);
+		RegisterHelper.registerBlock(copperOre);
     }
 }

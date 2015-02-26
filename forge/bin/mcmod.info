@@ -7,7 +7,7 @@
 
 [
 {
-  "modid": "SPECIALPANCAKE6_CompuChests",
+  "modid": "specialpancake6_copuchests",
   "name": "CompuChests",
   "description": "Create HUGE multiblock chests and display the contents on a huge screen.",
   "version": "alpha-0.1",

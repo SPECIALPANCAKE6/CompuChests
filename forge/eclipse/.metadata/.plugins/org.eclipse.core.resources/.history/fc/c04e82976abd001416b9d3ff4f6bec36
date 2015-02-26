@@ -1,0 +1,13 @@
+package com.github.SPECIALPANCAKE6.CompuChests.items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class CompuChestsItem extends Item
+{
+	public CompuChestsItem()
+	{
+		super();
+		setCreativeTab(CreativeTabs.tabMisc);
+	}
+}

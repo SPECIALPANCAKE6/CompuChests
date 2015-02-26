@@ -1,7 +1,9 @@
-package com.github.SPECIALPANCAKE6.CompuChests;
+package com.github.specialpancake6.compuchests;
 
-import com.github.SPECIALPANCAKE6.CompuChests.help.Reference;
-import com.github.SPECIALPANCAKE6.CompuChests.init.ModBlocks;
+import com.github.specialpancake6.compuchests.help.Reference;
+import com.github.specialpancake6.compuchests.init.ModBlocks;
+import com.github.specialpancake6.compuchests.init.ModItems;
+
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -13,7 +15,8 @@ public class CompuChests
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		ModBlocks.init();
+           ModItems.init();
+           ModBlocks.init();
 	}
 	
 	@Mod.EventHandler
@@ -27,5 +30,4 @@ public class CompuChests
 	{
 		
 	}
-
 }
