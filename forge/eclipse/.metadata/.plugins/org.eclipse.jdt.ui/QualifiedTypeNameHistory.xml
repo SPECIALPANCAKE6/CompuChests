@@ -3,14 +3,11 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLInitializationEvent"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPostInitializationEvent"/>
-<fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.help.Reference"/>
-<fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.help.RegisterHelper"/>
 <fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.init.ModBlocks"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="net.minecraft.block.BlockContainer"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
 <fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.blocks.BlockCompuChest"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
 <fullyQualifiedTypeName name="net.minecraft.tileentity.TileEntity"/>
@@ -18,4 +15,13 @@
 <fullyQualifiedTypeName name="cpw.mods.fml.common.ModMetadata"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.Mod"/>
 <fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.blocks.BlockChestMonitor"/>
+<fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.help.RegisterHelper"/>
+<fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.init.ModItems"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.items.CompuChestsItem"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.SideOnly"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.relauncher.Side"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.IIconRegister"/>
+<fullyQualifiedTypeName name="com.github.SPECIALPANCAKE6.CompuChests.help.Reference"/>
 </qualifiedTypeNameHistroy>
