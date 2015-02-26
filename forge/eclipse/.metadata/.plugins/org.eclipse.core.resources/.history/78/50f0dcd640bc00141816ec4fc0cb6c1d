@@ -1,0 +1,23 @@
+package com.github.SPECIALPANCAKE6.CompuChests.blocks;
+
+import java.util.Iterator;
+import java.util.Random;
+
+import net.minecraft.block.BlockContainer;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.world.World;
+
+public class BlockCompuChest extends BlockContainer
+{	
+	public BlockCompuChest()
+    {
+		super(Material.wood);
+		this.setBlockName("CompuChest");
+        this.setStepSound(soundTypeWood);
+        this.setHardness(3.0F);
+        this.setResistance(10.0F);
+        this.setHarvestLevel("axe", 1);
+        this.setCreativeTab(CreativeTabs.tabDecorations);
+    }
+}
