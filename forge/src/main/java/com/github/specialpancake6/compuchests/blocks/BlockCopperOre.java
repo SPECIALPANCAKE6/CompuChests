@@ -1,10 +1,10 @@
 package com.github.specialpancake6.compuchests.blocks;
 
 import com.github.specialpancake6.compuchests.help.Reference;
+import com.github.specialpancake6.compuchests.tabs.ModTabs;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 
 public class BlockCopperOre extends Block
 {
@@ -13,6 +13,10 @@ public class BlockCopperOre extends Block
             super(Material.iron);
             setBlockName("copperOre");
             setBlockTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
-            setCreativeTab(CreativeTabs.tabBlock);
+            setCreativeTab(ModTabs.tabCompuChests);
+            setStepSound(soundTypeStone);
+  		  	setHardness(2.5F);
+  		  	setResistance(10.0F);
+  		  	setHarvestLevel("pickaxe", 2);
     }
 }

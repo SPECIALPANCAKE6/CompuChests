@@ -1,6 +1,7 @@
 package com.github.specialpancake6.compuchests.items;
 
 import com.github.specialpancake6.compuchests.help.Reference;
+import com.github.specialpancake6.compuchests.tabs.ModTabs;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -20,8 +21,8 @@ public class CompuChestsItem extends Item
 	@Override
 	public void registerIcons(IIconRegister par1IconRegister)
 	{
-		itemIcon = par1IconRegister.registerIcon(Reference.MODID + ":" + 
-					getUnlocalizedName().substring(5));
+		itemIcon = par1IconRegister.registerIcon(Reference.MODID + ":" + getUnlocalizedName().substring(5));
+		setCreativeTab(ModTabs.tabCompuChests);
 	}
 
 }

@@ -4,6 +4,7 @@ import com.github.specialpancake6.compuchests.blocks.BlockCopperOre;
 import com.github.specialpancake6.compuchests.help.RegisterHelper;
 
 import net.minecraft.block.Block;
+import net.minecraft.tileentity.TileEntity;
 
 public class ModBlocks
 {

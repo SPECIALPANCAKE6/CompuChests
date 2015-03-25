@@ -1,3 +1,4 @@
 item.copperIngot.name=Copper Ingot
 tile.copperOre.name=Copper Ore
-itemGroup.tabName=CompuChests
+tile.compuChest.name=CompuChest
+itemGroup.tabCompuChests=CompuChests
